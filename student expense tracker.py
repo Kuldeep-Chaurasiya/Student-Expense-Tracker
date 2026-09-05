@@ -3,14 +3,14 @@ Student = input("Enter your name : ")
 Total=0
 Item_total=0
 Food_total=0 
-while True:                         # CATEGORY LOOP
+while True:                         
 
     category = input("Enter category: ")
     print("\033[1m", category, "\033[0m")
 
     item_total = 0
 
-    while True:                     # ITEM LOOP
+    while True:                     
 
         item = input("Enter item: ")
         price = float(input("Enter price: "))
